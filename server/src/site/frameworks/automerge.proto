@@ -1,0 +1,3 @@
+message AutomergeCustomMessage {
+  repeated bytes changes = 1;
+}

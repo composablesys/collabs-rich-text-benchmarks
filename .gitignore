@@ -1,0 +1,9 @@
+node_modules
+generated
+build
+dist
+data
+old_data
+userData
+out.log
+.~*

@@ -1,0 +1,12 @@
+// tsconfig options targeting Node.js.
+{
+  "compilerOptions": {
+    "outDir": "build/server",
+    "module": "commonjs",
+    "target": "ES6",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["src/aws"]
+}

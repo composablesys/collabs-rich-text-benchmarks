@@ -1,0 +1,162 @@
+{
+  "family": "collabs-nsdi-client-half-x8",
+  "containerDefinitions": [
+    {
+      "name": "client0",
+      "image": "194095331551.dkr.ecr.us-west-1.amazonaws.com/collabs-nsdi:latest",
+      "cpu": 512,
+      "memory": 1024,
+      "portMappings": [],
+      "essential": true,
+      "environment": [],
+      "mountPoints": [],
+      "volumesFrom": [],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/collabs-nsdi-clients",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    },
+    {
+      "name": "client1",
+      "image": "194095331551.dkr.ecr.us-west-1.amazonaws.com/collabs-nsdi:latest",
+      "cpu": 512,
+      "memory": 1024,
+      "portMappings": [],
+      "essential": false,
+      "environment": [],
+      "mountPoints": [],
+      "volumesFrom": [],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/collabs-nsdi-clients",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    },
+    {
+      "name": "client2",
+      "image": "194095331551.dkr.ecr.us-west-1.amazonaws.com/collabs-nsdi:latest",
+      "cpu": 512,
+      "memory": 1024,
+      "portMappings": [],
+      "essential": false,
+      "environment": [],
+      "mountPoints": [],
+      "volumesFrom": [],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/collabs-nsdi-clients",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    },
+    {
+      "name": "client3",
+      "image": "194095331551.dkr.ecr.us-west-1.amazonaws.com/collabs-nsdi:latest",
+      "cpu": 512,
+      "memory": 1024,
+      "portMappings": [],
+      "essential": false,
+      "environment": [],
+      "mountPoints": [],
+      "volumesFrom": [],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/collabs-nsdi-clients",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    },
+    {
+      "name": "client4",
+      "image": "194095331551.dkr.ecr.us-west-1.amazonaws.com/collabs-nsdi:latest",
+      "cpu": 512,
+      "memory": 1024,
+      "portMappings": [],
+      "essential": false,
+      "environment": [],
+      "mountPoints": [],
+      "volumesFrom": [],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/collabs-nsdi-clients",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    },
+    {
+      "name": "client5",
+      "image": "194095331551.dkr.ecr.us-west-1.amazonaws.com/collabs-nsdi:latest",
+      "cpu": 512,
+      "memory": 1024,
+      "portMappings": [],
+      "essential": false,
+      "environment": [],
+      "mountPoints": [],
+      "volumesFrom": [],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/collabs-nsdi-clients",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    },
+    {
+      "name": "client6",
+      "image": "194095331551.dkr.ecr.us-west-1.amazonaws.com/collabs-nsdi:latest",
+      "cpu": 512,
+      "memory": 1024,
+      "portMappings": [],
+      "essential": false,
+      "environment": [],
+      "mountPoints": [],
+      "volumesFrom": [],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/collabs-nsdi-clients",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    },
+    {
+      "name": "client7",
+      "image": "194095331551.dkr.ecr.us-west-1.amazonaws.com/collabs-nsdi:latest",
+      "cpu": 512,
+      "memory": 1024,
+      "portMappings": [],
+      "essential": false,
+      "environment": [],
+      "mountPoints": [],
+      "volumesFrom": [],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/collabs-nsdi-clients",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    }
+  ],
+  "executionRoleArn": "arn:aws:iam::194095331551:role/ecsTaskExecutionRole",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "4096",
+  "memory": "8192"
+}
