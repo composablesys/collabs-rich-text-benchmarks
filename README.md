@@ -1,6 +1,6 @@
 # Collabs Many-User Rich-Text Editing Benchmarks
 
-Many-user rich-text editing benchmarks for [Collabs](https://collabs.readthedocs.io/en/latest/), [Yjs](https://docs.yjs.dev/), [Automerge](https://automerge.org/), [ShareDB](https://share.github.io/sharedb/), and Google Docs. As described in the Collabs paper's Section 7.1.
+Many-user rich-text editing benchmarks for [Collabs](https://collabs.readthedocs.io/en/latest/), [Yjs](https://docs.yjs.dev/), [Automerge](https://automerge.org/), [ShareDB](https://share.github.io/sharedb/), and Google Docs. As described in [the Collabs paper's](https://arxiv.org/abs/2212.02618) Section 7.1.
 
 ## Dependencies
 
