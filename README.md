@@ -2,12 +2,28 @@
 
 Many-user rich-text editing benchmarks for [Collabs](https://collabs.readthedocs.io/en/latest/), [Yjs](https://docs.yjs.dev/), [Automerge](https://automerge.org/), [ShareDB](https://share.github.io/sharedb/), and Google Docs. As described in [the Collabs paper's](https://arxiv.org/abs/2212.02618) Section 7.1.
 
-## Dependencies
+## Usage
+
+Dependencies:
 
 - Linux
 - Node v18+
 
-See README.md in each folder for additional setup instructions. (Usually, you need to run `npm ci` to install dependencies.)
+Install:
+
+```bash
+npm ci --legacy-peer-deps
+```
+
+Build:
+
+```bash
+npm run build
+```
+
+(This just runs `npm run build` in the `server/` folder.)
+
+See README.md in each folder for specific usage instructions.
 
 ## Organization
 

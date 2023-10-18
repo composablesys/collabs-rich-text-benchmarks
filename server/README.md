@@ -4,14 +4,6 @@ Web server that serves each framework's rich-text editor and orchestrates the ex
 
 ## Usage
 
-### Install
-
-```bash
-npm ci --legacy-peer-deps
-```
-
-(Reason for `--legacy-peer-deps`: Without it, npm does not let you use an alpha version of `@automerge/automerge` to resolve `@automerge/automerge-repo`'s peer dep.)
-
 ### Build app (browser code):
 
 ```bash

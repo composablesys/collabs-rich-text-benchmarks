@@ -4,14 +4,6 @@ Node.js program that analyzes log files recorded from `../client/` and `../serve
 
 ## Usage
 
-### Install
-
-```bash
-npm ci
-```
-
-### Run
-
 ```bash
 npm start <output dir> <input dirs...>
 ```

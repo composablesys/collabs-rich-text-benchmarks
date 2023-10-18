@@ -4,12 +4,6 @@ Node.js program that uses [Puppeteer](https://pptr.dev/) to run a client, i.e., 
 
 ## Usage
 
-### Install
-
-```bash
-npm ci
-```
-
 ### Run one experiment client:
 
 Set the `URL` environment variable to the server's URL, then run
@@ -26,7 +20,7 @@ E.g. for local testing:
 URL="http://localhost:8080/" npm start
 ```
 
-## Local testing script
+### Local testing script
 
 For easy local testing, `local_exp.sh` runs a server and clients together on the local machine.
 

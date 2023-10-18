@@ -1,0 +1,15 @@
+{
+  "workspaces": [
+    "analysis",
+    "client",
+    "metadata_overhead",
+    "server"
+  ],
+  "scripts": {
+    "build": "npm run build -w server",
+    "clean": "npm run clean -w server"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
